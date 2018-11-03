@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    active: dev
+  thymeleaf:
+    enabled: true
+    prefix: classpath:/templates/
+    suffix: .html
+  session:
+    store-type: Redis
+  redis:
+    host: 127.0.0.1
+    port: 6379
